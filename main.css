@@ -137,7 +137,7 @@ header .container-banner div{
 @media only screen and (max-width: 768px) {
 
     html,body{
-        background: black;
+        background: orange;
         font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         max-width:1200px;
     }
@@ -278,7 +278,7 @@ header .container-banner div{
 @media only screen and (max-width: 600px) {
 
     html,body{
-        background: black;
+        background: yellow;
         font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         max-width:1200px;
     }
