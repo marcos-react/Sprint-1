@@ -32,6 +32,11 @@ header .container-header div{
 
 }
 
+header .container-header div:hover:nth-of-type(1){
+    background: #ff1493;
+    transform: scale(1.3);
+}
+
 
 
 
