@@ -133,3 +133,144 @@ header .container-banner div{
     margin: 1rem;
     padding: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+
+    html,body{
+        background: black;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        max-width:1200px;
+    }
+    
+    header {
+    
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    header .container-header{
+    
+        background: #2c4059;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1rem;
+        padding: 2rem;
+        
+        
+    
+    }
+    
+    header .container-header div{
+    
+        background: #ea5455;
+        display: flex;
+        flex-direction: column;
+        /*width: 20%;*/
+    
+    }
+    
+    
+    
+    
+    
+    header .container-banner{
+    
+        background: #fc8b02;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column; 
+        
+    
+    
+    }
+    
+    header .container-banner div{
+    
+        background: #fed700;
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+    
+    }
+    
+    .container-body{
+    
+        display: flex;
+        flex-direction: column;
+        
+    
+    } 
+    
+    
+    
+    .container-article{
+    
+        background: #4e4e6a;
+        padding: 2rem;
+        
+        display: flex;
+        flex-direction: column; 
+        margin: 1rem;
+        justify-content: space-between;
+        flex-grow: 1;
+    
+    
+    }
+    
+    .container-article div{
+    
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 1em;
+        grid-gap: 15px;
+    }
+    
+    .container-item{
+    
+        background-color: #1f6cb0;
+        
+    
+    }
+    
+    
+     .navigation{
+    
+        background: #71a3c4;
+        padding: 1rem;
+        margin-top: 1rem;
+    
+    }
+    
+    
+    
+    
+    .container-publicidad{
+    
+        background: #f63f51;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .container-publicidad div{
+    
+        background: #fed700;
+        /*align-items: center;*/
+        /*padding: 1rem;*/
+        margin: 2rem;
+    
+    }
+    
+    .pie {
+    
+        background: #f0e78c;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}
